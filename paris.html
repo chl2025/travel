@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>旅途奇觀 - 巴黎</title>
+    <link rel="icon" href="images/travel_favicon.png" type="image/png" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="text-dark body-with-sidebar">
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main id="app-content" class="content-wrapper">
+      <div class="container py-5">
+        <h1 class="display-4 font-display fw-bold text-center mb-3">
+          法國，巴黎
+        </h1>
+        <p class="text-center fs-5 text-muted mb-5">豐富的歷史遺產</p>
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <div class="bg-white p-4 rounded shadow-sm">
+              <h2 class="h3 font-display fw-bold mb-3">歷史與文化</h2>
+              <p>
+                巴黎的歷史可以追溯到公元前3世紀，當時該地區居住著一個稱為巴黎西人的凱爾特部落。隨著羅馬帝國的進駐，巴黎逐漸發展成為一個重要的商業和行政中心。幾個世紀以來，這座城市一直是歐洲文化、藝術、時尚和美食的核心。巴黎憑藉其豐富的歷史遺產和文化資源，成為世界知名的文化首都。這裡發生的許多重大歷史事件，包括法國大革命，對現代法國乃至整個歐洲的政治和社會變革有著深遠的影響。
+              </p>
+              <p>
+                巴黎也是無數偉大藝術家、作家和知識分子的發源地，像是畢卡索、雨果和盧森堡等人都在這座城市留下深刻的足跡。城市內遍布咖啡館，成為思想交流和社交活動的熱點，形成獨特的咖啡館文化。巴黎還擁有世界級的博物館，如羅浮宮和奧賽美術館，這些機構收藏了豐富的藝術珍品。巴黎文化融合了對美學的深刻熱愛，以及對知識不斷追求的精神，編織出一幅多彩且持久的文化織錦，吸引全球遊客前來探索。
+              </p>
+              <div
+                id="parisCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#parisCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#parisCarousel"
+                    data-bs-slide-to="1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#parisCarousel"
+                    data-bs-slide-to="2"
+                  ></button>
+                </div>
+
+                <!-- Slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/paris/versailles.webp"
+                      class="d-block w-100"
+                      alt="Palace of Versailles"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>凡爾賽宮 (Palace of Versailles)</h5>
+                      <p>法國皇家宮殿，華麗鏡廳與壯觀花園。</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/paris/notre_dame.png"
+                      class="d-block w-100"
+                      alt="Notre Dame"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>巴黎聖母院 (Notre Dame)</h5>
+                      <p>哥德式建築經典，雕像與玻璃窗細膩壯觀。</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/paris/louvre.png"
+                      class="d-block w-100"
+                      alt="Louvre Museum"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>羅浮宮博物館 (Louvre Museum)</h5>
+                      <p>全球最大藝術殿堂，《蒙娜麗莎》故鄉。</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#parisCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#parisCarousel"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+              <h2 class="h3 font-display fw-bold mt-4 mb-3">景點</h2>
+              <h3>艾菲爾鐵塔</h3>
+              <p>
+                艾菲爾鐵塔是巴黎最具代表性的地標，建於1889年世博會，塔高324米。旅客可搭乘電梯或爬樓梯至三個觀景層，從最高層俯瞰壯麗的巴黎全景。夜晚燈光秀每小時閃爍五分鐘，營造浪漫氣氛。鐵塔不僅是建築奇蹟，更象徵著巴黎的文化與浪漫，每年吸引全球遊客前來朝聖與拍照。
+              </p>
+
+              <h3>凱旋門</h3>
+              <p>
+                凱旋門由拿破崙於1806年下令建造，紀念法國軍隊勝利。坐落於戴高樂廣場中央，周圍有12條大道輻射，包含香榭麗舍大道。造型宏偉，內部有細緻浮雕描繪戰役場景。遊客可登頂觀景台，俯瞰巴黎市景。底部的無名戰士墓與每日6:30的火焰儀式，為此地增添莊嚴氛圍。
+              </p>
+
+              <h3>羅浮宮博物館</h3>
+              <p>
+                羅浮宮原為法國皇宮，現為世界訪客最多的藝術博物館，收藏範圍涵蓋古至今藝術珍品。館內藏有《蒙娜麗莎》和米洛的維納斯等全球知名作品。其龐大規模需多日參觀，也提供重點導覽服務，是藝術愛好者必訪之地。
+              </p>
+
+              <h3>巴黎聖母院</h3>
+              <p>
+                巴黎聖母院為14世紀哥德式建築經典，特色扶壁與石像鬼雕刻聞名。作為法國歷史與文化重要象徵，也是文學名著《鐘樓怪人》的背景。2019年火災後，主體與彩繪玻璃保存完好，修復工作持續中，未來將重現昔日風采。
+              </p>
+
+              <h3>蒙馬特區與聖心堂</h3>
+              <p>
+                蒙馬特區是巴黎藝術重鎮，曾孕育梵谷、畢卡索等大師。區內街道彎曲，氛圍濃厚。聖心堂位於區域高點，以新拜占庭式建築著稱。遊客需攀爬約200階梯才能抵達教堂，並可繼續攀頂觀賞巴黎全貌。白色圓頂與藝術氣息為蒙馬特增添獨特色彩。
+              </p>
+
+              <h3>凡爾賽宮</h3>
+              <p>
+                凡爾賽宮距巴黎約30分鐘車程，是法國絢麗君主制象徵。宮殿內裝潢奢華，鏡廳以百面鏡子聞名。宮外花園廣闊優美，設計精緻，常吸引大批遊客。這裡見證歷史多項重要事件，包括法國大革命起點。
+              </p>
+
+              <h3>盧森堡公園</h3>
+              <p>
+                盧森堡公園是巴黎市中心寧靜綠洲，有雕塑、噴泉及大型水池，是理想休憩之所。花卉四季變換，特別春夏盛開，景色宜人。深受當地人與遊客喜愛，公園旁邊即為盧森堡宮，法國參議院所在地。
+              </p>
+
+              <h3>龐畢度中心</h3>
+              <p>
+                龐畢度中心為歐洲最大現代藝術博物館，以外露管線和鮮豔色彩設計著稱。館藏多樣，包含繪畫、雕塑與多媒體藝術。自1977年開幕以來持續引發熱議，已成巴黎文化地標。館內亦設圖書館與放映室，提供豐富藝術教育與交流活動。
+              </p>
+
+              <h3>塞納河與橋樑</h3>
+              <p>
+                塞納河穿越巴黎，分隔出左岸和右岸。沿岸橋樑美輪美奐，亞歷山大三世橋與藝術橋尤為著名。藝術橋以情侶懸掛愛情鎖聞名，象徵永恆愛情。遊船遊覽塞納河為旅遊必體驗，特別於黃昏時分，浪漫氛圍濃厚。
+              </p>
+
+              <h3>佩爾拉雪茲公墓</h3>
+              <p>
+                佩爾拉雪茲公墓是巴黎最大墓園，安葬著多位藝術家與文學巨擘，如搖滾歌手吉姆·莫里森與作家奧斯卡·王爾德。環境幽靜，雕塑與墓碑各具特色，是親近巴黎文化歷史與體驗沉思之地。
+              </p>
+              <h3 class="h3 font-display fw-bold mt-4 mb-3">旅客視頻指南</h3>
+              <div class="ratio ratio-16x9">
+                <iframe
+                  width="1381"
+                  height="777"
+                  src="https://www.youtube.com/embed/AQ6GmpMu5L8"
+                  title="Paris Vacation Travel Guide | Expedia"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 sidebar-sticky">
+            <div class="bg-white p-4 rounded shadow-sm">
+              <h3 class="h4 font-display fw-bold mb-3">實用資訊</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2"><strong>語言：</strong> 法語</li>
+                <li class="mb-2"><strong>貨幣：</strong> 歐元 (€)</li>
+                <li class="mb-2">
+                  <strong>最佳旅遊時間：</strong>
+                  春季（4月-6月）和秋季（9月-10月）。
+                </li>
+                <li class="mb-2">
+                  <strong>交通方式：</strong> 巴黎地鐵、步行。
+                </li>
+                <li><strong>美食：</strong> 可頌、馬卡龍、法式蝸牛。</li>
+              </ul>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.7576713281!2d2.277019441612254!3d48.85882542105233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2z5rW3552A5beB6buR!5e0!3m2!1szh-TW!2shk!4v1754300575555!5m2!1szh-TW!2shk"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="mt-4"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS to load components -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

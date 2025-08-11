@@ -1,0 +1,62 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f8f9fa;
+}
+.body-with-sidebar {
+  min-height: 150vh; /* Added to ensure enough scrollable area for sticky sidebar */
+}
+.font-display {
+  font-family: "Playfair Display", serif;
+}
+.navbar {
+  background-color: #0369a1;
+}
+.nav-link.custom-hover {
+  transition: background-color 0.3s;
+}
+.nav-link.custom-hover:hover,
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.page {
+  display: none;
+}
+.page.active {
+  display: block;
+  animation: fadeIn 0.5s ease-in-out;
+}
+.card-hover {
+  transition: transform 0.3s ease-in-out;
+}
+.card-hover:hover {
+  transform: scale(1.05);
+}
+.hero-bg {
+  height: 60vh;
+  background-image: url("https://placehold.co/1600x900/000000/FFFFFF?text=Explore+the+World");
+  background-size: cover;
+  background-position: center;
+}
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+}

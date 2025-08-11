@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>旅途奇觀 - 里約熱內盧</title>
+    <link rel="icon" href="images/travel_favicon.png" type="image/png" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="text-dark body-with-sidebar">
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main id="app-content" class="content-wrapper">
+      <div class="container py-5">
+        <h1 class="display-4 font-display fw-bold text-center mb-3">
+          巴西，里約熱內盧
+        </h1>
+        <p class="text-center fs-5 text-muted mb-5">森巴與陽光的奇妙之城</p>
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <div class="bg-white p-4 rounded shadow-sm">
+              <h2 class="h3 font-display fw-bold mb-3">歷史與文化</h2>
+              <p>
+                里約熱內盧是一個充滿活力對比的城市，從其世界聞名的嘉年華和森巴音樂到其在山海之間的壯麗自然環境。里約曾是巴西的首都，擁有受葡萄牙殖民者、非洲奴隸和歐洲移民影響的豐富文化遺產。這種融合在其音樂、食物和里約人著名的輕鬆友好生活方式中顯而易見。
+              </p>
+              <div
+                id="rioCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#rioCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#rioCarousel"
+                    data-bs-slide-to="1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#rioCarousel"
+                    data-bs-slide-to="2"
+                  ></button>
+                </div>
+
+                <!-- Slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/rio/cristo.jpg"
+                      class="d-block w-100"
+                      alt="Eiffel Tower"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>基督救世主像</h5>
+                      <p>宏偉的耶穌基督雕像</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/rio/copacabana.jpg"
+                      class="d-block w-100"
+                      alt="Arc de Triomphe"
+                    />
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                      <h5>科帕卡巴納海灘</h5>
+                      <p>長達4公里的新月形海灘</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/rio/tijuca.jpg"
+                      class="d-block w-100"
+                      alt="Louvre Museum"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>提如卡國家公園</h5>
+                      <p>都市中的一片綠洲</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#rioCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#rioCarousel"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+              <h2 class="h3 font-display fw-bold mt-4 mb-3">景點</h2>
+              <h3>基督救世主像 (Cristo Redentor)</h3>
+              <p>
+                這座宏偉的耶穌基督雕像坐落在科爾科瓦多山頂，是里約乃至全球的標誌。它不僅是宗教象徵，更提供了俯瞰全城的絕佳視角，將壯麗的城市風光與海岸線盡收眼底。
+              </p>
+              <h3>糖麵包山 (Pão de Açúcar)</h3>
+              <p>
+                位於瓜納巴拉灣口的糖麵包山是里約的另一處地標。遊客可搭乘兩段式纜車登上山頂，欣賞日落時分城市與海洋交織的金色美景，是攝影愛好者的天堂。
+              </p>
+              <h3>科帕卡巴納海灘 (Copacabana Beach)</h3>
+              <p>
+                這片長達4公里的新月形海灘是世界上最著名的海灘之一。沿岸是充滿活力的步道、酒店和咖啡館，無論是日光浴、沙灘排球還是感受當地人的悠閒生活，這裡都是絕佳去處。
+              </p>
+              <h3>伊帕內瑪海灘 (Ipanema Beach)</h3>
+              <p>
+                因一首巴薩諾瓦歌曲而聞名全球，伊帕內瑪海灘以其時尚、精緻的氛圍著稱。這裡不僅是衝浪和日光浴的好地方，更是觀察里約時尚潮流與多元文化的窗口。
+              </p>
+              <h3>塞勒隆階梯 (Escadaria Selarón)</h3>
+              <p>
+                由智利藝術家喬治·塞勒隆創作的這段階梯，是里約最具藝術氣息的角落。215級台階上鑲嵌著來自世界各地的彩色瓷磚，鮮豔的色彩使其成為一個充滿活力的露天藝術品。
+              </p>
+              <h3>提如卡國家公園 (Tijuca National Park)</h3>
+              <p>
+                作為世界上最大的城市森林之一，提如卡公園是都市中的一片綠洲。公園內有瀑布、遠足徑和豐富的動植物，是逃離城市喧囂、親近自然的理想之地。
+              </p>
+              <h3>里約植物園 (Jardim Botânico)</h3>
+              <p>
+                這座歷史悠久的植物園擁有超過6,500種植物，包括高聳的帝國棕櫚樹大道和珍稀的亞馬遜植物。這裡是植物愛好者和尋求寧靜的遊客的必訪之地。
+              </p>
+              <h3>明日博物館 (Museu do Amanhã)</h3>
+              <p>
+                由西班牙建築師聖地牙哥·卡拉特拉瓦設計，這座未來主義的科學博物館探討了地球、生態和人類未來的可能性。其獨特的建築本身就是一件藝術品。
+              </p>
+              <h3>馬拉卡納體育場 (Maracanã Stadium)</h3>
+              <p>
+                對於足球迷來說，馬拉卡納是巴西足球的聖地。這裡曾舉辦過兩次世界盃決賽，參觀體育場或觀看一場比賽，都能感受到巴西人對足球的無限熱情。
+              </p>
+              <h3>聖特蕾莎區 (Santa Teresa)</h3>
+              <p>
+                這個波西米亞風格的山頂社區以其蜿蜒的街道、藝術工作室和古老的黃色電車而聞名。漫步其中，可以發現獨特的精品店、咖啡館和欣賞城市美景的觀景點。
+              </p>
+              <h2 class="h3 font-display fw-bold mt-4 mb-3">旅客視頻指南</h2>
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/9lnxGcax1ok"
+                  title="One Minute Travel:  Rio de Janeiro"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="rounded"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 sidebar-sticky">
+            <div class="bg-white p-4 rounded shadow-sm">
+              <h3 class="h4 font-display fw-bold mb-3">實用資訊</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2"><strong>語言：</strong> 葡萄牙語</li>
+                <li class="mb-2"><strong>貨幣：</strong> 巴西雷亞爾 (R$)</li>
+                <li class="mb-2">
+                  <strong>最佳旅遊時間：</strong>
+                  12月至3月（嘉年華）或9月至11月。
+                </li>
+                <li class="mb-2">
+                  <strong>交通方式：</strong> 地鐵、計程車、共乘應用。
+                </li>
+                <li>
+                  <strong>美食：</strong> Feijoada、pão de queijo、caipirinha。
+                </li>
+              </ul>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235209.4938582723!2d-43.3689830268098!3d-22.91325237436212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x502ff6085ec353!2z5be06KW_6I-v57Gz54Gj54Gr5YWl!5e0!3m2!1szh-TW!2shk!4v1754300872009!5m2!1szh-TW!2shk"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="mt-4"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS to load components -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

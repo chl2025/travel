@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>旅途奇觀 - 京都</title>
+    <link rel="icon" href="images/travel_favicon.png" type="image/png" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="text-dark body-with-sidebar">
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <main id="app-content" class="content-wrapper">
+      <div class="container py-5">
+        <h1 class="display-4 font-display fw-bold text-center mb-3">
+          日本，京都
+        </h1>
+        <p class="text-center fs-5 text-muted mb-5">傳統日本的心臟</p>
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <div class="bg-white p-4 rounded shadow-sm">
+              <h2 class="h3 font-display fw-bold mb-3">歷史與文化</h2>
+              <p>
+                京都位於日本本州中部，是日本歷史悠久的古都。自公元794年桓武天皇將首都從奈良遷至此地，建立平安京後，京都成為日本的政治、文化和宗教中心超過一千年，直到1869年明治天皇將都城遷至東京。京都的城市規劃仿效中國隋唐時代的長安城，展現嚴謹的市坊制格局。作為歷代天皇的居所，京都擁有數千座神社與寺廟，深厚的佛教禪宗文化與傳統藝能如茶道、和服、藝伎文化在此發展成熟。歷經戰亂與政權更迭，京都依舊保留完整的歷史遺跡，如二條城和金閣寺等世界文化遺產。以四季分明的自然景觀和傳統祭典，如祇園祭聞名，京都不僅是文化藝術重鎮，還是體驗日本古典風情的重要窗口，讓人感受到日本悠久的歷史與傳統文化精髓。
+              </p>
+              <div
+                id="kyotoCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#kyotoCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#kyotoCarousel"
+                    data-bs-slide-to="1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#kyotoCarousel"
+                    data-bs-slide-to="2"
+                  ></button>
+                </div>
+
+                <!-- Slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/kyoto/photo1.png"
+                      class="d-block w-100"
+                      alt="Kyoto Tower"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>京都塔 (Kyoto Tower)</h5>
+                      <p>照亮不臨海的京都，360度展望城市。</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/kyoto/photo2.png"
+                      class="d-block w-100"
+                      alt="Gion"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>祇園 (Gion)</h5>
+                      <p>藝伎文化與古典茶屋的傳統娛樂區。</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/kyoto/photo3.png"
+                      class="d-block w-100"
+                      alt="Ishibe Koji"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>石塀小路 (Ishibe Koji)</h5>
+                      <p>狹窄巷弄與石牆，江戶風情濃厚。</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#kyotoCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#kyotoCarousel"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+              <h2 class="h3 font-display fw-bold mt-4 mb-3">景點</h2>
+              <h3>京都塔</h3>
+              <p>
+                京都塔位於京都車站正對面，高131公尺，是京都市最高建築。建於1964年，外型取燈塔造型，象徵照亮不臨海的京都。塔內設有360度展望台，天氣晴朗時能遠眺京都市區及大阪景色。此外，塔中還包含餐廳、商店和體驗設施，是旅客觀賞城市全貌的最佳地點，也被視為京都的重要地標。
+              </p>
+
+              <h3>祇園</h3>
+              <p>
+                祇園是京都著名的傳統娛樂區，以藝伎文化聞名。這裡保有古典的木造茶屋和街道風貌，是觀賞和體驗日本傳統藝伎表演的熱門地點。夜晚的祇園燈光柔和，氛圍典雅別緻，不論是漫步或品嚐日式美食，都能感受到濃厚的京都古都風情。
+              </p>
+
+              <h3>石塀小路</h3>
+              <p>
+                石塀小路是祇園附近的歷史街道，以其狹窄的巷弄和石牆著稱。這裡遍布傳統的京都町家建築和古老旅館，帶有濃厚的江戶時代氣息。石塀小路是尋找京都風情與體驗靜謐古雅氛圍的絕佳場所，吸引許多旅人沉浸於時光倒流的感覺。
+              </p>
+
+              <h3>三年坂和二年坂</h3>
+              <p>
+                三年坂和二年坂是京都保存良好的古街區，禁止車輛通行，街道兩旁是傳統茶屋、工藝品店和小餐館。這裡是通往多座著名寺廟的步道，遊客可沿途感受濃厚的歷史氛圍與風情，體驗古都深厚的文化底蘊。
+              </p>
+
+              <h3>平安神宮</h3>
+              <p>
+                平安神宮是為紀念日本平安京建立1100周年而建的神社，以朱紅色的大鳥居和寬闊庭園著名。神宮融合了傳統建築之美與自然景觀，春秋兩季更是賞花和紅葉的絕佳去處，是京都重要的文化與歷史象徵。
+              </p>
+
+              <h3>青蓮院</h3>
+              <p>
+                青蓮院是一座融合佛教修行與庭園美景的寺廟，坐落於京都東山區。靜謐環境中呈現典雅的日式庭園設計，常設冥想場所，提供訪客靜思和感受禪意的空間，是追求心靈寧靜的理想選擇。
+              </p>
+
+              <h3>清水寺</h3>
+              <p>
+                清水寺是京都最著名的古寺之一，以懸空舞台聞名，為遊客提供俯瞰市區的壯麗視野。寺內有歷史悠久的佛像與建築，周圍櫻花和楓葉季節景色迷人，是文化和自然美的完美結合。
+              </p>
+
+              <h3>東福寺</h3>
+              <p>
+                東福寺是京都歷史悠久的禪寺，以秋季楓紅聞名。寺內的覆蓋橋樑橫跨深谷，環境清幽，是賞楓與體驗禪宗文化的重要據點。寺院結合石園和古樹，展現出京都獨有的靜謐美感。
+              </p>
+
+              <h3>高台寺</h3>
+              <p>
+                高台寺建於豐臣秀吉的夫人為紀念丈夫而創立，融合了歷史與藝術的元素。寺內庭園著名，四季變化鮮明，尤其夜晚燈光映照下的景致浪漫動人。寺廟中還陳列多件重要的歷史文物。
+              </p>
+
+              <h3>南禪寺</h3>
+              <p>
+                南禪寺是日本五大禪寺之一，擁有壯觀的三門與古老的水道橋。寺內庭園幽靜，是禪修與觀光的熱門地點。南禪寺結合古建築和自然生態，為京都帶來一處寧靜壯麗的文化景觀。
+              </p>
+
+              <h3>伏見稻荷大社</h3>
+              <p>
+                伏見稻荷大社知名於成千上萬個紅色鳥居形成的「千本鳥居」步道，供奉稻荷神，象徵豐收與商業繁榮。整個神社遍布山坡，是京都最具標誌性與人氣的神社之一，且吸引眾多遊客徒步登頂賞景。
+              </p>
+
+              <h3>二條城</h3>
+              <p>
+                二條城是江戶時代將軍的京都居所，結合防禦設施與豪華宮殿建築。城中有美麗的日本庭園和細緻的障壁畫，見證豐富的歷史事件，是認識京都歷史的重要景點。
+              </p>
+
+              <h3>嵐山</h3>
+              <p>
+                嵐山以美麗的自然風光著稱，有著名的竹林小徑、桂川和多座古寺。四季皆有不同景致，尤其櫻花與楓葉季節最為熱門。嵐山也是京都的休閒勝地，提供豐富的自然與文化體驗。
+              </p>
+              <h3 class="h3 font-display fw-bold mt-4 mb-3">旅客視頻指南</h3>
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/Jd1wzlwtKJ0"
+                  title="Kyoto Travel Guide"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="rounded"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 sidebar-sticky">
+            <div class="bg-white p-4 rounded shadow-sm">
+              <h3 class="h4 font-display fw-bold mb-3">實用資訊</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2"><strong>語言：</strong> 日語</li>
+                <li class="mb-2"><strong>貨幣：</strong> 日圓 (¥)</li>
+                <li class="mb-2">
+                  <strong>最佳旅遊時間：</strong>
+                  春季賞櫻（3月-4月）和秋季賞楓（10月-11月）。
+                </li>
+                <li class="mb-2">
+                  <strong>交通方式：</strong> 巴士、地鐵、自行車。
+                </li>
+                <li><strong>美食：</strong> 懷石料理、豆腐料理、抹茶甜點。</li>
+              </ul>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417835.05847191083!2d135.38853098856356!3d35.0983101128032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a8d6cd3cc3f1%3A0xc0961d366bbb1d3d!2z5pel5pys5Lqs6YO95bqc5Lqs6YO95biC!5e0!3m2!1szh-TW!2shk!4v1754299275670!5m2!1szh-TW!2shk"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="mt-4"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS to load components -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
